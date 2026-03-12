@@ -44,7 +44,5 @@ func main() {
 		fmt.Println("--------------------")
 		fmt.Println("Hello world")
 
-		fmt.Println(intToWord(19))
-		fmt.Println(intToWord(11))
 	}
 }
