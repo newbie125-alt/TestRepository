@@ -42,5 +42,6 @@ func main() {
 		fmt.Println(myCalculation(i, multiplier, "+"))
 		fmt.Println(myCalculation(i, multiplier, "*"))
 		fmt.Println("--------------------")
+		fmt.Println("Hello world")
 	}
 }
