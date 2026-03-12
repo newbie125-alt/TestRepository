@@ -43,5 +43,8 @@ func main() {
 		fmt.Println(myCalculation(i, multiplier, "*"))
 		fmt.Println("--------------------")
 		fmt.Println("Hello world")
+
+		fmt.Println(intToWord(19))
+		fmt.Println(intToWord(11))
 	}
 }
