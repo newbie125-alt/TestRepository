@@ -37,6 +37,9 @@ func myCalculation(num1, num2 int, operation string) string {
 		intToWord(result))
 }
 func main() {
+	//запускает цикл, от 1 до 10, и создается переменная multiplier
+	//для параметра функции myCalculatoin, и выводятся операции
+	//сложение и умножение с числами.
 	for i := 1; i <= 10; i++ {
 		multiplier := 2
 		fmt.Println(myCalculation(i, multiplier, "+"))
